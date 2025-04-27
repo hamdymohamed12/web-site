@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <section class="one">
+        <div class="payment">
+            <h1>chose the payment </h1>
+            
+            <div class="chose-payment">
+               
+                <input type="radio" id="credit_card" name="payment" value="credit_card">visacard
+                <label for="credit_card"><img src="./images/saving_9334599.png" alt="visa card">
+                </label>
+
+<!------------------------------------------------------------>
+                <div  class="visa">
+                    <label for="card-number">number of card :</label>
+                    <input type="text" id="card-number" name="card-number" placeholder=" enter number of card " maxlength="16">
+    
+                    <label for="cvv">  </label>
+                    <input type="text" id="cvv" name="cvv" placeholder="enter CVV" maxlength="3">
+                </div>
+                
+
+
+                
+            </div>
+            <div class="chose-payment">
+               
+            <input type="radio" id="paypal" name="payment" value="paypal">paypal
+            <label for="paypal">
+                <img src="./images/Paypal_2014_logo.png" alt="">
+            </label>
+
+
+            <div class="visa">
+            <input type="text" id="email" placeholder="enter your email">
+            <br>
+            
+             <input type="text" placeholder="enetr your password">
+        </div>
+            
+
+
+        </div>
+        <div class="chose-payment">
+            
+            <input type="radio" id="cash" name="payment" value="cash">cash on delivery
+            <label for="cash">
+                <img src="./images/pay_625599.png" alt="">
+            </label>
+        </div>
+        <button type="submit" class="sub">confirmPayment</button>
+          
+        </div>
+        
+    </section>
+</body>
+</html>
